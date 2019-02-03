@@ -1,3 +1,4 @@
-Flask==0.12.0
-flask-sqlalchemy
-pyodbc
+Flask==1.0.2
+flask-sqlalchemy==2.3.2
+pyodbc==4.0.25
+
