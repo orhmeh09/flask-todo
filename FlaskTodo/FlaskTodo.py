@@ -5,7 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 import pyodbc
 
 app = Flask(__name__)
-app.config.from_pyfile(../'hello.cfg')
+app.config.from_pyfile('../hello.cfg')
 db = SQLAlchemy(app)
 
 
